@@ -20,16 +20,16 @@
  <view class="tha">head2</view>
  <view class="tha ">head3</view>
  </view>
- <block wx:for="{{listData}}" wx:key="{[code]}">
+ <!--<block wx:for="{{listData}}" wx:key="{[code]}">
  <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
  <view class="tda">{{item.code}}</view>
  <view class="tda">{{item.text}}</view>
  <view class="tda">{{item.type}}</view>
  </view>
- <!--<view class="tr" wx:else>-->
+ <view class="tr" wx:else>
  <view class="tda">{{item.code}}</view>
  <view class="tda">{{item.text}}</view>
  <view class="tda">{{item.type}}</view>
  </view>
- </block>
+ </block>-->
 </view>
